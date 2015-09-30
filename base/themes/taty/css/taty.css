@@ -1,0 +1,237 @@
+html {
+  position: relative;
+  min-height: 100%;
+  background-image: url("../img/frida.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+ 
+}
+body {
+  /* Margin bottom by footer height */
+
+  margin-bottom: 60px;
+}
+
+section.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
+
+/**SLIDE**/
+
+
+
+/*Menu*/
+nav.navbar{
+  background-color: rgba(0,0,0,.8);
+}
+
+
+/*Carrosel**/
+#meuCarrossel{
+    min-width: 100%;
+    min-height: 100%;
+   
+}
+
+
+hgroup.botoes_inicial{
+  
+  width: 60%;
+  margin-left: 30px;
+
+}
+
+#divcar{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  color: #cccccc;
+
+}
+
+
+#divcar img{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: 0;
+}
+
+
+
+
+
+header#mt_barra{
+ display: none;
+  
+}
+
+
+
+/*Conteudo*/
+div#mt_conteudo{
+    width:100%;
+    position:absolute; /* to place it somewhere on the screen */
+    top:0px;         /* free space at top */
+    bottom:0px; 
+    padding: 0;
+}
+
+/* Categoria */
+p.cat_desc{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+   
+}
+
+div.categoria_altura{
+	border:0px #ff0000 solid;
+	height:70px;
+	diaplay:table;
+}
+
+div.thumbnail{
+  background-color: rgba(0,0,0,.8);
+  margin-top: 40px;
+   padding-top: 1px;
+   border: 1px solid #000;
+}
+
+a.thumbnail{
+   background-color: rgba(0,0,0,.8);
+}
+
+
+/*Rodape*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+    background-color: #000;
+    z-index: 9999;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+ 
+div.mt_sobre h1{
+  padding-left: 20px;
+  font-family: Times new Roman;
+  color:#999999;
+}
+
+
+
+div.mt_sobre{
+   padding: 25px;
+}
+div.mt_sobre p{
+    
+  text-align: justify;
+  color:#666666;
+}
+
+div.mt_sobre h5{
+  
+  font-size: 11px;
+  text-align: right;
+  padding-right: 20px;
+  font-style: italic;
+}
+
+/*Categoria*/
+
+
+
+/*Paginação*/
+div.paginacao{
+
+  padding-left: 40%;
+  padding-right: 10%;
+ 
+  
+}
+
+div.espaco{
+  clear: both;
+
+}
+
+
+/*Trabalho*/
+
+
+
+
+.galeria{
+  background-color: rgba(0,0,0,.8);
+}
+
+/*Contato*/
+div.contato{
+  position: absolute;
+  bottom: 0px;
+  right: 10%;
+  background-color: rgba(0,0,0,.8);
+  padding: 10px;
+  width: 400px;
+}
+
+ header#mt_barra{
+    
+      display: none;
+
+ }
+
+div.redes{
+	padding: 20px 0px 0px 30px;
+float: left;
+	
+}
+
+div.redes2{
+	padding: 5px 0px 0px 30px;
+float: left;
+	
+}
+
+div#categoria{
+    width:95%;
+    position:absolute; /* to place it somewhere on the screen */
+    top:0px;         /* free space at top */
+    left:50px;
+   
+}
+
+.borda{
+	border: 1px solid #000;
+}

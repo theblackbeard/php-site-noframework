@@ -1,0 +1,304 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+body{
+    color: #777;
+    font-family: sans-serif;
+}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#pagina {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #pagina {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+.logo{
+    border: 0px solid #1f8dd6;
+    height: 150px;
+    margin: 25px 0 0 0;
+    padding: 10px 40px 10px 40px;
+}
+
+.sidebar-nav {
+    position: relative;
+    top: 0;
+    width: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0px solid #1f8dd6;
+}
+
+.sidebar-nav li {
+    text-indent: 10px;
+    line-height: 35px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+    border-bottom:  1px rgba(255,255,255,0.1) solid;
+    height: 50px;
+    padding: 10px;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.icon {
+    margin: 0;
+    padding: 20px 2px 0 5px;
+    float: left;
+    
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.submenu{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+    display: none;
+
+}
+
+.submenu li a{
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-indent: 40px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.redes{
+    padding-top: 5%;
+}
+
+
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 150px;
+
+    }
+
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 190px;
+        background: #191818;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #cabecalho {
+        padding-right: 30px;
+    }
+
+    .pull-right{
+        padding-left: 10px;
+    }
+    #pagina {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #pagina {
+        position: relative;
+        margin-right: 0;
+    }
+
+    #cabecalho h1{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 36px;
+        text-align: right;
+        padding: 20px 0 5px 0;
+        margin: 1px;
+        color: #646464;
+        line-height: 1.19em;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+
+
+    }
+
+    #cabecalho h2{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        text-align: right;
+        color: #cccccc;
+        padding: 0px;
+        margin: 1px;
+        background-color: transparent;
+        line-height: 1.17em;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+
+    }
+
+    #conteudo h1{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        margin: 1px;
+        color: #646464;
+        line-height: 2em;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+    }
+
+    #conteudo h3{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+        text-align: left;
+        color: #646464;
+        padding: 0px;
+        margin: 1px;
+        background-color: transparent;
+        line-height: 1.17em;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+
+    }
+
+    #conteudo em{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 10px;
+        text-align: left;
+        color: #cccccc;
+        padding: 0;
+        margin: 1px;
+        background-color: transparent;
+        line-height: 1.17em;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+
+    }
+
+
+    #conteudo p{
+        font-size: 15px;
+        text-align: justify;
+        color: #777777;
+        padding-top: 15px;
+    }
+    .sidebar-brand{
+        background: #1f8dd6;
+        text-transform: uppercase;
+
+
+
+    }
+    #wrapper .sidebar-brand a{
+        color: #ffffff;
+    }
+
+    #conteudo{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .rodapeSocial{
+        border: 0px solid #ffffff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+    }
+
+    hr{
+        width:80%;
+        height:2px;
+
+    }
+
+    #info{
+        padding: 0 0 20px 0;
+    }
+
+    #info h1{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        margin: 1px;
+        color: #646464;
+        line-height: 2em;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+    }
+
+
+
+}
+
+.borda{
+    border: 1px solid #000000;
+}

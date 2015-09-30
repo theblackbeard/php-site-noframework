@@ -1,0 +1,154 @@
+/**Diferente*/
+
+
+@media (max-width:768px){
+
+
+
+     div.gal{
+       padding: 100px 20px 0px 0px;
+    }
+
+
+    div.slide_conteudo{
+
+        position: absolute;
+        top: 25%;
+        left: 26%;
+        width: 46%;
+        height: auto;
+        background-color: rgba(0,0,0,.8);
+        min-height: 100%;
+        border: 0px solid #ffff00;
+
+    }
+
+    header.cabecalho h1{
+        font-size: 16px;
+    }
+
+    article.corpo p{
+        font-size: 13px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    div.contato{
+        position: absolute;
+        bottom: 10px;
+        left: 2%;
+        width: 92%;
+    }
+
+}
+
+@media (min-width:768px){
+
+    div.gal{
+       padding: 100px 20px 0px 0px;
+    }
+
+
+    div.slide_conteudo{
+
+        position: absolute;
+        top: 25%;
+        left: 26%;
+        width: 350px;
+        height: auto;
+        min-height: 100%;
+        background-color: rgba(0,0,0,.8);
+
+
+    }
+
+    header.cabecalho h1{
+        font-size: 16px;
+    }
+
+    article.corpo p{
+        font-size: 12px;
+        padding-left: 15px;
+
+
+    }
+
+    div.contato{
+        position: absolute;
+        bottom: 20%;
+        right: 2%;
+        width: 300px;
+    }
+}
+
+@media (min-width:992px){
+
+    div.gal{
+       padding: 100px 20px 0px 0px;
+    }
+
+    div.slide_conteudo{
+
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        width: 400px;
+        height: auto;
+        min-height: 100%;
+        background-color: rgba(0,0,0,.8);
+
+
+    }
+
+    header.cabecalho h1{
+        font-size: 18px;
+    }
+
+    article.corpo p{
+        font-size: 15px;
+    }
+
+    div.contato{
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+    }
+
+  
+}
+
+@media (min-width:1200px){
+
+     div.gal{
+       padding: 100px 20px 0px 0px;
+    }
+
+
+    div.slide_conteudo{
+
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        width: 500px;
+        height: auto;
+        min-height: 100%;
+        background-color: rgba(0,0,0,.8);
+
+
+    }
+    header.cabecalho h1{
+        font-size: 25px;
+    }
+
+    article.corpo p{
+        font-size: 17px;
+    }
+
+    div.contato{
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+    }
+}

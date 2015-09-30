@@ -1,0 +1,38 @@
+
+<div id="divcar">
+    <img src="#HOME#/uploads/#trab_foto#" alt="...">
+    <div class="slide_conteudo">
+
+        <header class="cabecalho">
+            <h5>Publicado em:  <time datetime="#datetime#" pubdate><b>#pubdate# hs</b></time></h5>
+            <h1>#trab_titulo# <span class="badge">#trab_visualizacao#</span></h1>
+        </header>
+        <article class="corpo">
+            <p> #trab_descricao#</p>
+            <hgroup class="botoes_inicial">
+                <a href="#HOME#/trabalho/#trab_nome#" class="btn btn-primary btn-sm" title="Ver #trab_titulo#">[+]Detalhes</a>
+                <a href="#HOME#/categoria/#nomecate#" class="btn btn-info btn-sm" title="Categoria: #categoria#">#categoria#</a>
+            </hgroup>
+        </article>
+
+
+    </div>
+
+    <div class="janela_galeria">
+        <?php
+            $gb = 0;
+            $readGb = new Read;
+            $readGb->exeRead("cweb_galeria" , "WHERE post_codigo = :codigo ORDER BY galeria_data DESC", "codigo={$trab_codigo}");
+        if($readGb->getResult()):
+        foreach($readGb->getResult() as $galeria):
+        $gb++;
+        extract($galeria);
+        ?>
+        <div class="col-xs-12  col-lg-3 col-md-3 col-sm-4">
+            <a href="<?= HOME; ?>/uploads/<?= $galeria_imagem; ?>" class="thumbnail" data-lightbox="image-1" data-title="Galeria de: <?= $trab_titulo ?>">
+                <?= Check::Image('uploads' . DIRECTORY_SEPARATOR . $galeria_imagem, "Imagem {$gb} do post {$trab_titulo}", 171 ,180); ?>
+            </a>
+        </div>
+
+</div>
+

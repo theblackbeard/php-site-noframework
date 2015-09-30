@@ -1,0 +1,63 @@
+/*Titulos*/
+header.cabecalho h3, h1{
+    padding: 10px 0px 10px 20px;
+    text-transform: uppercase;
+}
+
+div.caption > h3{
+    color: #989898;
+    text-align: center;
+}
+
+/*subtitulos*/
+header.cabecalho h5{
+    padding: 50px 25px 10px 0px;
+    text-align: right;
+    font-size: 11px;
+}
+div.caption h5{
+    text-align: right;
+    font-size: 11px;
+   padding-right: 10px;
+    color: #676662;
+}
+
+
+/*Textos*/
+
+article.corpo p{
+    padding: 0px 30px 5px 30px;
+    text-align: justify;
+    text-indent: 40px;
+    color: #989898;
+}
+
+
+div.caption p{
+    padding: 0px 10px 0px 10px;
+    color: #989898;
+    text-align: justify;
+}
+
+/*links*/
+
+/*imgs*/
+
+p.contato_msg{
+    color: lightyellow;
+}
+
+a.titulo {
+    margin: 0;
+    padding-top: 10px;
+}
+
+h3.sub_titulo{
+    font-size: 12px;
+    margin: 0;
+    padding: 0px 0px 0px 43px;
+    border:0px solid #ffff00;
+    position: absolute;
+    top:27px;
+    color: #93a1a1;
+}

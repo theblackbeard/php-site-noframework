@@ -1,0 +1,57 @@
+<?php
+ if($link->getData()):
+        extract($link->getData());
+    else:
+        header('Location: ' . HOME . DIRECTORY_SEPARATOR . '404');
+    endif;
+
+?>
+<section id="mt_conteudo" class="container-fluid">
+ 
+  
+  <header id="mt_barra">
+    <div class="mt_sobre">
+    <h1><?= $cont_titulo ?></h1>
+    <p><?= $cont_descricao ?></p>
+    </div>
+  </header>
+
+    <div class="contato">
+                    <?php
+
+                        $contato = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+                        if(isset($contato) && $contato['EnviarContato']):
+                            unset($contato['EnviarContato']);
+                            var_dump($contato);
+                        endif;
+
+                    ?>
+
+
+                    <form action="#" name="EnviarContatoForm" method="post">
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" class="form-control" id="nome" name="nome" value="<?php if(isset($contato['nome'])) echo $contato['nome'];?>" placeholder="Coloque seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" name="email" value="<?php if(isset($contato['email'])) echo $contato['email'];?>" placeholder="Coloque seu e-mail" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">E-mail:</label>
+                            <textarea class="form-control" name="mensagem" rows="4" placeholder="Coloque sua Mensagem" id="mensagem" required>
+                               <?php
+                            if(isset($contato['mensagem'])) echo $contato['mensagem'];
+                           ?></textarea>
+                        </div>
+
+
+                        <input type="submit" name="EnviarContato" class="btn btn-info" value="Enviar"></input>
+                    </form>
+
+
+                </div>
+
+</section>

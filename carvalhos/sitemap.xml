@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://carvalhos.carvcom.com/</loc>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/sobre/sobre-mim</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/categoria/todos-os-projetos</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/categoria/programas-em-java</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/categoria/trabalhos-antigos</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/categoria/web-sites-em-php</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/categoria/websites-em-java</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/blog/todas-as-postagens</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/blog/jsp</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/admin/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/trabalho-de-java-vitrine-de-uma-loja-5°-semestre</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/aguia-do-vale-guinchos</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/trabalho-final-de-estoque</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/system-work-projeto-beta</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/trabalho-final-do-2°-semestre-php-(-atualizado-)</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/trabalho-final-do-2°-semestre-php</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/trabalho/design-de-interiores-portfolio-academico-php-mvc</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://carvalhos.carvcom.com/post/upload-de-imagens-com-java-servlet-3.0-e-mysql</loc>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>

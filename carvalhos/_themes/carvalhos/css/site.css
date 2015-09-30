@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Marck+Script);
+
+body {
+    width: 100%;
+    height: 100%;
+     font-family: Arial, sans-serif;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:hover{
+     color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.topo {
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    display: table;    
+}
+
+.sobre {
+   
+    height: 100%;
+    width:  100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #eee;
+    text-align: justify;
+    display: table;
+}
+
+
+.postagens{
+    height: 100%;
+    padding-top: 20px;
+    text-align: left;
+    background: #eee;
+    text-align: justify;
+    display: table;
+}
+
+
+
+.postagens h1, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.postagens h1 {
+    text-shadow: 3px 2px 7px rgba(150, 150, 150, 1);
+
+}
+
+
+.portfolio {
+    height: 100%;
+    width:  100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #fff;
+    display: table;
+}
+
+
+.trab_inicial{
+	height: 350px;
+}
+
+.contato {
+    height: 100%;
+    width:  100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #eee;
+    display: table;
+}
+
+.topo h1{
+    font-family: 'Marck Script', cursive;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.topo h2{
+    font-style: italic;
+    font-size: 15px;
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+    font-weight: bold;
+    
+}
+
+.topo h3{
+    font-size: 18px;
+    margin: 2px;
+    padding: 0px;
+}
+
+.mensagem{
+    padding-top: 20px;
+}
+.sobre h1, h3 {
+     font-family: 'Open Sans Condensed', sans-serif;
+    
+} 
+
+.sobre h1 {
+     text-shadow: 3px 2px 7px rgba(150, 150, 150, 1);
+    
+}
+
+.portfolio h1, h3{
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contato h1, h3{
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.projetos {
+    height: 100%;
+    width:  100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #eee;
+    display: table;
+}
+
+.projetos h1, h3{
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.projetos h4 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: right;
+    
+}
+
+
+
+.fonte{
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.centro{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.borda{
+    border: 1px solid #000;
+}
+
+
+.paginacao{
+    
+  
+}
+
+.welo{
+    background-color: #cccccc;
+}
+
+.subitem{
+	padding-left: 20px;
+}
+
+a.linka{
+	color:#666
+}
+
+a.linka:hover {
+	color: #ccc;
+}
+
+a.link:visited {
+	color: #666;
+}
+
+
+.curto_espaco{
+	padding-bottom: 50px;
+
+}
+
+article#meuTrabalho a:link{
+    color:#666;
+
+}
+
+article#meuTrabalho a:hover{
+    color:#666;
+}
+
+article#meuTrabalho a:visited{
+    color:#ccc;
+}
+
+.redes{
+    padding-top: 60px;
+}
